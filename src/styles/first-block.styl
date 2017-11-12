@@ -1,0 +1,81 @@
+.content
+  background #fff
+
+/* TITTLE */
+.first-block__tittle
+  display flex
+  align-items center
+  justify-content center
+
+.decoration
+  background-color: rgb( 217, 191, 143 );
+  margin 10px
+  transform rotate(45deg)
+  width: 19px;
+  height: 19px;
+
+.first-block__tittle h2
+  margin 0 90px
+  font-size: 29.973px;
+  font-family: "PlayfairDisplay";
+  color: rgb( 0, 0, 0 );
+  font-style: italic;
+
+/* FIRST GRID */
+
+.content-item__icon
+  display block
+  padding 9px
+
+.first_item
+  position relative
+
+.shadow
+  width: 355px
+  height: 340px
+  background-color: rgba( 0, 0, 0, 0.2 );
+  position: absolute;
+  top: 34px
+  left 30px
+
+.content-item__button .btn {
+  border none
+  background-color: rgb( 240, 151, 92 );
+  font-size: 22px;
+  font-family: "Lato";
+  color: rgb( 255, 255, 255 );
+  width: 115px;
+  height: 44px;
+  position: absolute;
+  bottom 80px
+  left 143px
+  cursor pointer
+}
+
+.first_item:before
+  content ' '
+  height: 60px
+  border-right 1px solid  rgb( 217, 191, 143 )
+  position absolute
+  top 165px
+  left 208px
+
+.first_item:after
+  content ' '
+  width: 60px
+  border-bottom 1px solid  rgb( 217, 191, 143 )
+  position absolute
+  top 196px
+  left 178px
+
+.second_item
+  position relative
+
+.second_item:before
+  content ' '
+  position absolute
+  left 28px
+  top 28px
+  width: 420px
+  height: 780px
+  border 1px solid #fff
