@@ -1540,3 +1540,52 @@ body {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .fourth__content-text {
+    max-width: 165px;
+  }
+}
+@media screen and (max-width: 955px) {
+  .fourth__content {
+    padding: 50px 10px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .fourth__content {
+    height: 600px;
+  }
+  .fourth__content-left .left-block {
+    display: block;
+    padding: 10px;
+  }
+  .fourth__content-right .right-block {
+    display: block;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 815px) {
+  .footer-content__left .column {
+    display: block;
+    margin-left: 50px;
+  }
+  .search button {
+    font-size: 11px;
+    padding: 8px 2px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .search button {
+    top: 85px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .fourth__content {
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 497px) {
+  .footer-content__right {
+    margin-left: 50px;
+    float: none;
+  }
+}
